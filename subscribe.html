@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vorskins - Subscribe</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- favicons  -->
+
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo">Vorskins <i class="fa fa-leaf"></i></a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="products.html">products</a>
+            <a href="promotions.html">promotions</a>
+            <a href="subscribe.html">subscribe</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="subscribe-banner" id="subscribe-banner">
+
+        <div class="content">
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- form section starts -->
+    <section class="newsletter" id="newsletter">
+
+        <h1 class="heading"> Newsletter <span>Subscription</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <form name="myForm" action="subscribe.html" onsubmit="return validateForm()" method="post">
+                    <div class="row">
+                        <input type="email" placeholder="your email" class="email" name="email">
+                    </div>
+                    <div class="row">
+                        <input type="text" placeholder="your fullname" class="email" name="fullname">
+                    </div>
+                    <div class="row">
+                        <input type="tel" placeholder="your phone number" class="email" name="phone">
+                    </div>
+                    <div class="row">
+                        <select name="preference" id="cars" class="email">
+                            <option value="Default">Choose Your Preference</option>
+                            <option value="saab">Skin care</option>
+                            <option value="mercedes">Bodycare</option>
+                        </select> </div>
+                    <div class="row">
+                        <input type="checkbox" id="agreement" name="agreement">
+                        <label for="agreement">I agree to receive newsletter</label>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit" class="btn">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- form section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Vorskins <i class="fa fa-leaf"></i></h3>
+                <p>Get connect with our social media to get more information.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +62 812 345688 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +62 812 245355 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> vorskins@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer section ends -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
